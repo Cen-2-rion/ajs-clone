@@ -57,31 +57,31 @@
 
 Перейдите в настройки:
 
-![](pic/settings-menu.png)
+![](./settings-menu.png)
 
 Выберите пункт меню [Developer Settings](https://github.com/settings/apps):
 
-![](pic/developer-menu.png)
+![](./developer-menu.png)
 
 Выберите пункт меню Personal Access Tokens (1), затем нажмите на кнопку [Generate new token (2)](https://github.com/settings/tokens/new):
 
-![](pic/generate-token.png)
+![](./generate-token.png)
 
 Заполните поле Note (1) и поставьте флажок напротив write:packages (2), остальные все флажки выставятся автоматически:
 
-![](pic/token-settings.png)
+![](./token-settings.png)
 
 После чего нажмите на кнопку Generate в самом низу страницы:
 
-![](pic/token-generate-button.png)
+![](./token-generate-button.png)
 
 GitHub запроси у вас пароль для подтверждения:
 
-![](pic/github-sudo.png)
+![](./github-sudo.png)
 
 После чего вам будет сгенерирован токен. **Важно**: токен будет показан только один раз, поэтому убедитесь, что скопировали его:
 
-![](pic/token.png)
+![](./token.png)
 
 Если вдруг вы всё-таки не скопировали его, то просто удалите старый и сгенерируйте новый.
 
@@ -233,13 +233,13 @@ export default {
 
 Для этого есть команда `npm publish`. Если вы всё сделали правильно, то её вывод будет выглядеть примерно так (конечно, у вас будут другие адреса):
 
-![](pic/publishing.png)
+![](./publishing.png)
 
 Обратите внимание, что `dist/index.js` есть в опубликованном пакете, но не хранится в GitHub.
 
 Теперь обновите страницу репозитория. Сбоку вы должны увидеть информацию о пакете:
 
-![](pic/published.png)
+![](./published.png)
 
 <details>
   <summary>Примечание</summary>
@@ -250,26 +250,26 @@ export default {
 
 Зайдите в раздел "Мои репозитории", в раздел "Packages"
 
-  ![](pic/instr1.png)
+  ![](./instr1.png)
   
 Далее перейдите на страницу своего пакета.
 
-  ![](pic/instr2.png)
+  ![](./instr2.png)
   
 На странице пакета кликните на настройки.
   
-  ![](pic/instr3.png)
+  ![](./instr3.png)
   
 На странице настроек пролистайте до самого конца страницы, там раздел "Danger Zone", кнопка "Change visibility".
 
-  ![](pic/instr4.png)
+  ![](./instr4.png)
   
 ---
   
 </details>
 Кликните на имени пакета, чтобы посмотреть информацию о нём:
 
-![](pic/package-info.png)
+![](./package-info.png)
 
 #### Шаг 7. Использование библиотеки
 
@@ -306,29 +306,29 @@ console.log(ajs.info());
 
 Удалите каталог dist из .gitignore и запушьте его на GitHub (удостоверьтесь, что он там появился):
 
-![](pic/dist.png)
+![](./dist.png)
 
 Перейдите к файлу index.js (который в каталоге dist) и нажмите на кнопку Raw:
 
-![](pic/raw.png)
+![](./raw.png)
 
 Скопируйте URL из строки браузера (в примере он вот такой: https://raw.githubusercontent.com/netology-code/ajs/master/dist/index.js).
  
 Теперь перейдите на сервис [Statically](https://statically.io/convert/), подставьте получившийся URL в верхнее поле (1), а с нижнего скопируйте итоговый URL (2):
 
-![](pic/cdn.png)
+![](./cdn.png)
 
 Остался последний штрих: воспользуйтесь сервисом [JSBin](https://jsbin.com) для того, чтобы быстро проверить работоспособность вашего кода:
 
-![](pic/jsbin.png)
+![](./jsbin.png)
 
 После чего выберите File -> Save Snapshot:
 
-![](pic/snapshot.png)
+![](./snapshot.png)
 
 После этого станет активна кнопка Share (вам нужно скопировать URL):
 
-![](pic/share.png)
+![](./share.png)
 
 ### Итого
 
